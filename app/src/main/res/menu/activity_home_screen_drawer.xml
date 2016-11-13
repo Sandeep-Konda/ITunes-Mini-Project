@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/video"
+            android:title="Movie" />
+        </group>
+
+     <group android:checkableBehavior="single">
+         <item
+          android:id="@+id/nav_podcast"
+          android:icon="@drawable/podcast"
+          android:title="Podcast" />
+     </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/musicplayer"
+            android:title="Music" />
+        </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_music_video"
+            android:icon="@drawable/musicvideo"
+            android:title="Music Video" />
+        </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_audiobook"
+            android:icon="@drawable/audiobook"
+            android:title="Audio Book"></item>
+        </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_short_film"
+            android:icon="@drawable/filmreel"
+            android:title="Short Film"></item>
+        </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tv_show"
+            android:icon="@drawable/televisions"
+            android:title="TV Shows"></item>
+        </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_software"
+            android:icon="@drawable/android"
+            android:title="Software"></item>
+        </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ebook"
+            android:icon="@drawable/reading"
+            android:title="E-Book"></item>
+        </group>
+
+
+    </group>
+
+
+</menu>

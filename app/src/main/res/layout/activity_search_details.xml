@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sandeep.itunesminiproject.SearchDetails">
+
+    <sandeep.itunesminiproject.customviews.CustomBoldTextview
+        android:id="@+id/trackPrice"
+        android:text="Track Title"
+        android:textSize="22sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        style="@style/searchResultsTextViewStyle" />
+
+    <sandeep.itunesminiproject.customviews.CustomBoldTextview
+      android:id="@+id/trackTitle"
+        android:text="Track Title"
+        android:textSize="22sp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+       style="@style/searchResultsTextViewStyle" />
+    <ImageView
+        android:id="@+id/art_image_full"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+       android:layout_below="@+id/trackTitle"
+        android:src="@mipmap/ic_launcher"/>
+
+    <sandeep.itunesminiproject.customviews.CustomTextView
+        android:id="@+id/trackDescription"
+        android:text="Track Description"
+        android:layout_below="@+id/art_image_full"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        style="@style/searchResultsTextViewStyle" />
+
+</RelativeLayout>
